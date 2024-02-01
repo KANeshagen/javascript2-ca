@@ -1,11 +1,8 @@
 
+export const register = () => {
 
-export class useAuth {
-    register = (userData) => {
+}
 
-    }
+export const login = () => {
 
-    login =(username, password) => {
-
-    }
 }
