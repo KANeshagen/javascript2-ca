@@ -1,16 +1,15 @@
+export const createLocal = (key, val) => {
+  return localStorage.setItem(key, JSON.stringify(val));
+}
 
-export const create = (key, val) => {
+export const readLocal = (key) => {
+  return localStorage.getItem(JSON.parse(key));
+}
+
+export const updateLocal = (key) => {
 
 }
 
-export const read = (key) => {
-
-}
-
-export const update = (key) => {
-
-}
-
-export const remove = (key) => {
+export const removeLocal = (key) => {
 
 }

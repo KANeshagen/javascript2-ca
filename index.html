@@ -2,23 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/social.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="./main.js"></script>
     <title>Javascript2 CA</title>
   </head>
   <body>
     <header class="w-full bg-gray-400">
-      <nav class="flex container mx-auto justify-around items-center p-5">
-        <div class="text-3xl">Brand</div>
-        <ul class="flex gap-3">
+      <nav class="flex md:container md:mx-auto w-full justify-between md:justify-around items-center p-3 md:p-5">
+        <div class="text-2xl md:text-3xl">Brand</div>
+        <ul class="hidden md:flex gap-3">
           <li>Home</li>
           <li>Posts</li>
-          <li>Link 3</li>
+          <li>Login</li>
         </ul>
+        <div class="flex md:hidden">Menu</div>
         <div>Profile</div>
       </nav>
     </header>
-    <div id="app"></div>
+    <main class="min-h-[calc(100vh-120px)] md:container md:mx-auto w-full" id="app"></main>
+    <footer class="flex items-center justify-center w-full bg-gray-400 p-3">
+      <p>Footer</p>
+    </footer>
   </body>
 </html>
